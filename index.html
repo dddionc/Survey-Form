@@ -1,0 +1,71 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <link href="C:\Users\DionChan\Desktop\Personal\webpages\Survey\style\style.css" rel="stylesheet">
+
+<Header>  
+    <h1 id="title">
+        <b>Tesla Purchase Form</b>
+    </h1>
+</Header>
+  
+<body>
+
+    <p id="description">
+        Order Details
+    </p>
+
+<form id="survey-form">
+  <div class="input-headings">
+  <label for="name" id="name-label">Name</label><br>
+  <input id="name" type="text" placeholder="Your Name" class="form-inputs" required></input><br>
+<label for="email" id="email-label">Email</label><br>
+<input id="email" type="email" placeholder="Your Email" class="form-inputs" required></input><br></input>
+<label for="number" id="number-label">Age</label><br>
+<input id="number" type="number" placeholder="Your Number" min="10" max="100" class="form-inputs" required></input><br>
+
+<label for="dropdown" id="model">Select model</label>
+<select id="dropdown" class="form-inputs">
+  <option value="Model 3">Model 3</option>
+  <option value="Model S">Model 4</option>
+  <option value="Cyber Truck">Cyber Truck</option>
+</select>
+<br>
+
+<label for="Color" id="color"><b>Model color:</b></label>
+<br>
+<input id="model color" type="radio" name="radio-ans" id="black" value="black">
+<label for="model color">Black</label>
+<br>
+<input id="model color" type="radio" name="radio-ans" id="white" value="white">
+<label for="model color">White</label>
+<br>
+<input id="model color" type="radio" name="radio-ans" id="red" value="red">
+<label for="model color">Red</label>
+<br>
+<br>
+<label for="features"><b>Add features:</b></label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value"autopilot">
+<label for="checkbox">Autopilot - $10,000</label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value"dualmotor">
+<label for="checkbox">Dual Motor - $8,000</label>
+<br>
+<input id="checkbox" type="checkbox" name="features" value"battery">
+<label for="checkbox">Battery - $7,000</label>
+<br>
+<br>
+<label id="comments"><b>Additional Comments</b></label>
+<br>
+<textarea id="textarea" rows="5" cols="40">
+</textarea>
+<br>
+<input id="submit" type="submit" value="Place order" class="submit-button">
+</div>
+</form>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
